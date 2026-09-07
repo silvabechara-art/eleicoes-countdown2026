@@ -1,0 +1,21 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/bg">
+<LinearLayout android:orientation="vertical" android:padding="22dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="🇧🇷  CONTAGEM REGRESSIVA" android:textColor="@color/yellow" android:textSize="15sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="PARA AS ELEIÇÕES" android:textColor="@color/white" android:textSize="30sp" android:textStyle="bold" android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/clock" android:text="00:00:00" android:textColor="@color/white" android:textSize="17sp" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="vertical" android:gravity="center" android:padding="24dp" android:layout_marginTop="22dp" android:background="@drawable/card" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:id="@+id/days" android:text="000" android:textColor="@color/yellow" android:textSize="68sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:text="DIAS RESTANTES" android:textColor="@color/white" android:textSize="14sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/hms" android:text="00 : 00 : 00" android:textColor="@color/white" android:textSize="28sp" android:textStyle="bold" android:layout_marginTop="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>
+<LinearLayout android:orientation="vertical" android:padding="18dp" android:layout_marginTop="18dp" android:background="@drawable/card" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="📅  DATA DA ELEIÇÃO" android:textColor="@color/yellow" android:textStyle="bold" android:textSize="14sp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:text="04 DE OUTUBRO DE 2026 • 08:00" android:textColor="@color/white" android:textSize="19sp" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>
+<LinearLayout android:orientation="vertical" android:padding="18dp" android:layout_marginTop="14dp" android:background="@drawable/card" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="🔔  ALARME DIÁRIO" android:textColor="@color/yellow" android:textStyle="bold" android:textSize="14sp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:text="Todos os dias às 08:00 até 04/10/2026" android:textColor="@color/white" android:textSize="17sp" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<Button android:id="@+id/settings" android:text="CONFIGURAR ALARME" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
+<TextView android:text="VAMOS FAZER A ESCOLHA CERTA. EXERÇA SEU DIREITO." android:textColor="@color/white" android:gravity="center" android:textStyle="bold" android:textSize="14sp" android:layout_marginTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>
